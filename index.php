@@ -21,6 +21,6 @@ var_dump($movies);
 <body>
     <?php foreach ($movies as $movie) { 
         echo '<p>' . $movie->getMovieDetails() . '</p>';
-    }?>
+    } ?>
 </body>
 </html>
